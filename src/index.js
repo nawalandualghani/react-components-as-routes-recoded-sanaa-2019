@@ -11,7 +11,7 @@ ReactDOM.render((
     <div>
       <Navbar />
       <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
+      <Route exact path="/about" component={about} />
       <Route exact path="/login" component={Login} />
     </div>
   </Router>),
